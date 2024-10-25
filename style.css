@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #87ceeb;
+}
+
+#mainMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.imgur.com/DIWvMYb.png'); /* Minecraft-like background */
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+button {
+    padding: 20px;
+    font-size: 2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    background-color: #87ceeb; /* Sky color */
+    image-rendering: pixelated;
+}
